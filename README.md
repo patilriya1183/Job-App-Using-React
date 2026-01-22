@@ -1,16 +1,44 @@
-# React + Vite
+# Job App Using React 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Job Search Application** built using **React.js**, where users can browse jobs, view detailed job descriptions, and explore similar job opportunities.  
+The project focuses on clean UI, responsive design, and real-world API integration.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://job-app-using-react.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 User Authentication
+- 📄 Job Listing Page
+- 🔍 Detailed Job View
+- 🧩 Similar Jobs Section
+- ⭐ Ratings, Location, Employment Type & Package Details
+- 🛠 Skills & Life at Company Section
+- 📱 Fully Responsive Design (Mobile & Desktop)
+- 🍪 Authentication handled using Cookies
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, JavaScript (ES6)
+- **Routing:** React Router DOM
+- **Styling:** CSS3, Bootstrap
+- **Icons:** React Icons
+- **Authentication:** js-cookie
+- **API:** CCBP Jobs API
+- **Deployment:** Vercel
+
+
+---
+
+## Login Credentials (Demo)
+Username: riya
+Password: riya@2025
+
+
+
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/ee14bf68-3ad1-434b-afde-a20bff511ce3" />
+
+
