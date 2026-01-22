@@ -1,0 +1,86 @@
+.mainJob {
+    background-color: #161e31;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobUl {
+    padding: 20px;
+}
+
+.newJobRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconInput {
+    position: relative;
+    width: 100%;
+}
+
+.inpSearch {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+    color: whitesmoke
+}
+
+.inpSearch:focus {
+    border: 1px solid whitesmoke;
+    outline: none;
+    box-shadow: none;
+}
+
+.inpSearch::placeholder {
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+
+
+@media (min-width : 1024px) {
+
+    .containerJob {
+        width: 90%;
+    }
+
+    .newJobRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sec1 {
+        width: 35%;
+    }
+
+    .sec2 {
+        width: 65% !important;
+    }
+
+    .jobUl {
+        padding: 20px;
+        width: 100% !important;
+    }
+
+
+    .iconInput {
+        position: relative;
+        width: 70%;
+    }
+
+}

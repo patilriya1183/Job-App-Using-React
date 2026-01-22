@@ -1,0 +1,107 @@
+.bg-login{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at top,
+    #1f2a44,
+    #0b1222
+  );
+}
+
+.mainCard{
+  height: 85%;
+  width: 90%;
+  display: flex;
+  background: #2b3150;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+.loginCard {
+  width: 100%;
+  padding: 25px;
+  background: #2b3150;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingLog{
+  /* font-size: 26px; */
+  text-align: center;
+}
+
+
+.form-control{
+  background: #424669;
+  border: 1px solid #4c5386;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+.form-control:focus {
+  color: white;
+  background: #3a4168;
+  border-color: #f2a365;
+  box-shadow: 0 0 0 2px rgba(242, 163, 101, 0.3);
+  outline: none;
+}
+
+.btn-2{
+  padding: 10px;
+  background: #f8b07d;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.btn-2:focus,
+.btn-2:active,
+.btn-2:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+@media (min-width : 1024px) {
+  
+  .mainCard{
+    height: 80%;
+    width: 70%;
+  }
+
+  .loginCard {
+    width: 50%;
+    padding: 35px;
+  }
+
+  .headingLog{
+    padding-left: 35px;
+  }
+
+  .boldLog{
+    padding-left: 35px;
+  }
+
+  .imgCard {
+    width: 50%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+      /* url("https://images.unsplash.com/photo-1584824486509-112e4181ff6b"); */
+
+    background-size: cover;
+    background-position: center;
+  }
+
+}

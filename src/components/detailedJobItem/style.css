@@ -1,0 +1,153 @@
+
+.mainDetailedJob{
+    background-color: #161e31;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobUl2{
+    width: 100%;
+    padding-left: 0;
+    padding: 20px;
+}
+
+.div-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobCard{
+    background-color: #2d3250;
+    list-style: none;
+}
+
+.starIcon{
+    margin-left: 4px;
+    color: gold;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.allJobIcon{
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.allParaIcon{
+    margin-right: 4px;
+}
+
+.logoUrlImg{
+    width: 60px;
+}
+
+.hrTag{
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.6; /* optional */
+
+}
+
+.decText{
+    text-align: justify;
+}
+
+
+.skillsUl{ 
+    list-style: none;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column; /* 📱 Mobile: one per row */
+    gap: 10px;
+}
+
+.skillItem {
+  display: flex;
+}
+
+.skillImg{
+    width: 25px;
+}
+
+.lifeDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.lifePara{
+    text-align: justify;
+}
+
+.sec2Img{
+    width: 100%;
+}
+
+.imgLife{
+    width: 100%;
+}
+
+.mainSimilar{
+    width: 100%;
+    padding: 20px;
+    /* background-color: yellow; */
+}
+
+@media (min-width : 1024px) {
+
+    .jobUl2{
+        width: 70% !important;
+    }
+    
+    .decText{
+        text-align: left ;
+    }
+
+    .skillsUl {
+        flex-direction: row;   
+        gap: 40px;
+    }
+
+    .lifeDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .sec1Para{
+        width: 50%;
+    }
+
+    .sec2Img{
+        width: 50%;
+        padding-left: 25px;
+    }
+
+    .imgLife{
+        width: 100%;
+        height: 200px;
+    }
+
+    .mainSimilar{
+        width: 70%;
+        padding: 20px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .similarJobsUl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

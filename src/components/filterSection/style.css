@@ -1,0 +1,18 @@
+
+
+.profileCard {
+   /* background-color: #676f9d; */
+   background: url("../../assets/image.png");
+   background-size: cover;
+   color: #161e31;
+   border-radius: 17px !important;
+}
+
+.ulItemFilter{
+   padding-left: 5px;
+   margin-left: 0;  
+}
+
+.liItem{
+   list-style: none;
+}

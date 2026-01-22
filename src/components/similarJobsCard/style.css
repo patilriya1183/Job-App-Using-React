@@ -1,0 +1,28 @@
+
+.similarJobsUl {
+  list-style: none;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+
+.similarJobCard {
+  background-color: #2d3250;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+@media (min-width: 1024px) {
+  .similarJobsUl {
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .similarJobCard {
+    width: 38%;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,173 @@
+/* 
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #2d3250;
+}
+
+.logoImg{
+    width: 150px;
+}
+
+.navList{
+    display: flex;
+    margin-top: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li-item{
+    padding: 15px;
+}
+
+.navItem{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+.navText{
+    display: none;
+}
+
+.navIcon{
+    display: block; 
+    font-size: 18px;
+}
+
+.navIcon:hover {
+    color: white;          
+}
+
+.btnLog{
+    font-weight: bold;
+    background-color: #f8b179;
+}
+
+
+.btnLog:focus,
+.btnLog:active,
+.btnLog:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+@media (min-width : 1024px) {
+
+    .logoImg{
+        width: 180px;
+    }
+
+  .navText {
+    display: inline;
+  }
+
+  .navIcon {
+    display: none;
+  }
+
+  .navItem {
+    font-size: 22px;
+  }
+
+  .navItem:hover {
+    color: white;
+    border-bottom: 2px solid #f8b179;
+  }
+
+
+} */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #2d3250;
+  padding: 16px;
+}
+
+
+.logoImg {
+  width: 150px;
+}
+
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li1 {
+    margin-right: 20px;
+  }
+
+.navItem {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+}
+
+.logoutBtn {
+  background: #f8b179;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.navIcon {
+  display: block;
+  font-size: 18px;
+}
+
+.navText {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+
+  .logoImg {
+    width: 180px;
+  }
+
+  .navText {
+    display: inline;
+  }
+
+  .navIcon {
+    display: none;
+  }
+
+  .li1 {
+    margin-right: 40px;
+  }
+
+  .navItem {
+    font-size: 22px;
+  }
+
+  .navItem:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #f8b179;
+  }
+}

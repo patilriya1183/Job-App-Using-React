@@ -1,0 +1,38 @@
+
+.div-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobCard{
+    background-color: #2d3250;
+    list-style: none;
+}
+
+.starIcon{
+    margin-left: 4px;
+    color: gold;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.allJobIcon{
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.allParaIcon{
+    margin-right: 4px;
+}
+
+.logoUrlImg{
+    width: 60px;
+}
+
+.hrTag{
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.6; /* optional */
+
+}
