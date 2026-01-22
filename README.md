@@ -22,9 +22,9 @@ The project focuses on clean UI, responsive design, and real-world API integrati
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js, JavaScript (ES6)
+- **Frontend:** React.js, JavaScript
 - **Routing:** React Router DOM
-- **Styling:** CSS3, Bootstrap
+- **Styling:** CSS, Bootstrap
 - **Icons:** React Icons
 - **Authentication:** js-cookie
 - **API:** CCBP Jobs API
